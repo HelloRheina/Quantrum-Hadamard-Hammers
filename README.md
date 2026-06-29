@@ -82,10 +82,6 @@ We use **QAOA** to solve scalarized versions of the problem under different obje
 
 | Work | Algorithm | Problem | Platform | Relevance |
 |:---|:---|:---|:---|:---|
-| Min et al. (2026) | Subspace-Confined QAOA | CBRS multi-channel allocation | Qiskit | **Core innovation** |
-| Choi et al. (2020) | QAOA (QAOS) | Wireless scheduling | Cirq | QAOA for NP-hard wireless |
-| Tafur Monroy et al. (2025) | QAOA | MO-RSA optimization | IBM Qiskit | Multi-objective validation |
-| Survey (2024) | QAOA, QA, QGA | Channel assignment | IBM Qiskit, D-Wave | Comprehensive benchmark |
 
 ---
 
