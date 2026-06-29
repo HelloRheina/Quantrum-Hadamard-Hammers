@@ -1,22 +1,49 @@
+# QUANTRUM: Pareto-QAOA for Wireless Channel Allocation
+
+> *A QAOA-based multi-objective optimization framework for communication resource scheduling*
 
 ---
 
-## 🛠️ Tech Stack
+## 📡 Problem
 
-| Component | Technology | Purpose |
-|:---|:---|:---|
-| **Quantum Core** | [Qiskit](https://qiskit.org/) 1.0+ | QAOA circuit, Dicke States, Aer simulator |
-| **Optimization** | `scipy.optimize` (COBYLA) | Classical outer-loop parameter optimization |
-| **UI & Visualization** | [Streamlit](https://streamlit.io/) | Interactive demo, live metrics, before/after graphs |
-| **Graph Visualization** | `networkx` + `matplotlib` | Network topology, conflict mapping, Pareto front |
-| **Environment** | Python 3.9+ + Jupyter | Development and experimentation |
+Wireless networks need to assign limited channels to multiple users. A good allocation should achieve **high throughput**, **low interference**, and **low energy consumption**. These objectives are often **conflicting**—improving one may worsen another.
 
-### Key Qiskit Features Used
+---
 
-- `QAOAAnsatz` for circuit construction
-- `DickeState` for constraint-preserving initialization
-- `SparsePauliOp` for custom XY-mixer Hamiltonians
-- `AerSimulator` with noise models for NISQ emulation
+## 🧠 Model
+
+Channel assignments under a specific trade-off preference. We formulate wireless channel allocation as a **constrained combinatorial optimization problem**. Each candidate solution represents a complete user-channel assignment. Constraint penalties are used to avoid invalid or high-conflict assignments.
+
+---
+
+## ⚛️ Solution
+
+We use **QAOA** to solve scalarized versions of the problem under different objective weights. Each QAOA run searches for good channel assignments under a specific trade-off preference.
+
+**Key Innovation:** Instead of finding a single "optimal" solution, we explore the **Pareto frontier**—the set of trade-off solutions where no objective can be improved without sacrificing another.
+
+---
+
+## 🛠️ Tech Ingredients
+
+- **QUBO Formulation** → Maps the problem to quantum-compatible form
+- **QAOA Circuit** → Quantum Approximate Optimization Algorithm
+- **Multiple Weight Settings** → Scalarize different trade-off preferences
+- **Pareto Archive** → Non-dominated solution selection
+
+---
+
+## 🎯 Expected Demo
+
+- **Network:** 5 users × 3 channels
+- **Comparison:** Classical algorithms vs. Pareto-QAOA results
+- **Visualization:** Pareto front among **Throughput**, **Interference**, and **Energy**
+
+---
+
+## 🌐 Quantum Multi-Objective Optimization in Communication
+
+> *From one optimal channel assignment to a Pareto set of communication trade-offs.*
 
 ---
 
@@ -64,31 +91,11 @@
 
 ## 🎓 References
 
-**Primary Reference (Our Innovation):**
-
-> Min, G., Seo, Y., & Heo, J. (2026). *Subspace-Confined QAOA with Generalized Dicke States for Multi-Channel Allocation in 5G CBRS Networks.* arXiv preprint arXiv:2601.16396.
-
-**QAOA for Wireless Optimization:**
-
-> Choi, J., Oh, S., & Kim, J. (2020). *Quantum Approximation for Wireless Scheduling.* arXiv:2004.11229.
-
-**Quantum Computing for Channel Assignment:**
-
-> *Summary of QC works on channel assignment in wireless networks* (2024 Survey). TABLE VI in arXiv:2406.02240.
-
-**QUBO & QAOA Implementation:**
-
-> *Multi-objective quantum routing optimization* (2025). Chapter 4 in arXiv:2506.16524.
-
----
 
 ## 🤝 Team
 
 | Role | Responsibility |
-|:---|:---|
-| **Person A** | Mathematical formulation, QUBO, multi-objective weighting |
-| **Person B** | QAOA circuit, Qiskit implementation, optimizer integration |
-| **Person C** | Visualization, Streamlit UI, metrics dashboard |
+
 
 ---
 
@@ -99,10 +106,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 ## 🙏 Acknowledgments
-
-- Qiskit team for the quantum computing framework
-- Min et al. (2026) for the subspace-confined QAOA innovation
-- ISIT26 Quantum Hackathon organizers
 
 ---
 
