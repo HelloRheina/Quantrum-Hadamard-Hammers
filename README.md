@@ -6,9 +6,7 @@
 
 ## 📡 Problem
 
-Wireless networks need to assign limited channels to multiple users. A good allocation should achieve **high throughput**, **low interference**, and **low energy consumption**. These objectives are often **conflicting**—improving one may worsen another.
-
-## Problem
+Wireless networks need to assign limited channels to multiple users. A good allocation should achieve **high throughput**, **low interference**, and **low energy consumption**. These objectives are often **conflicting**, improving one may worsen another.
 
 For `U` users and `C` channels, an allocation is:
 
