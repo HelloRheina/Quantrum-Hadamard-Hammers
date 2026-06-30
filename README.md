@@ -138,40 +138,13 @@ Extended benchmark:
 python run_extended_benchmark_suite.py
 ```
 
-## Optional Qiskit Demo
-
-Qiskit is optional and is not required for the main benchmark.
-
-```bash
-python run_qiskit_circuit_gallery.py --users 2 --channels 2
-python run_qiskit_noisy_demo.py --users 3 --channels 2 --shots 1024 --noise depolarizing
-```
-
-The Qiskit demo is intentionally small-scale. It validates the circuit-level idea that a constraint-preserving XY mixer keeps more probability inside the one-hot feasible space than a naive X mixer.
-
-For presentation, the repository also includes an 8-user, 3-channel logical Qiskit schematic that maps the main benchmark to 24 one-hot qubits without drawing an unreadable full 24-qubit diagonal cost circuit.
 
 ## 🤝 Team
 
-| Role | Responsibility |
-
-
----
+Hadamard Hammers: Zhan Li, Chuanseng Dong, Rheina Trudy Williams, Kumar Nilesh
 
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-## 🙏 Acknowledgments
-
----
-
-## 📧 Contact
-
-For questions or collaboration, please reach out via GitHub Issues or email the team.
-
----
 
 **Built with ❤️ for the ISIT26 Quantum Hackathon**
