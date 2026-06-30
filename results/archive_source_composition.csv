@@ -1,0 +1,4 @@
+source,archive_fraction
+qaoa_seed,1.0
+qaoa_descendant,0.25
+ea_random_mutation_crossover,0.0

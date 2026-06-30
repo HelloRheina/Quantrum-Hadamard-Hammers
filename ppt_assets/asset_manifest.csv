@@ -1,0 +1,16 @@
+asset,source,status
+final_pipeline_diagram.png,figures/final_pipeline_diagram.png,copied
+pareto_front.png,figures/pareto_3d.png,copied
+hv_convergence_evals.png,figures/hv_convergence_evals.png,copied
+method_comparison.png,figures/method_comparison.png,copied
+adaptive_weight_timeline.png,figures/adaptive_weight_timeline.png,copied
+adaptive_counterfactual_replay.png,figures/adaptive_counterfactual_replay.png,copied
+qiskit_noise_feasibility.png,figures/qiskit_noise_feasibility.png,copied
+qiskit_circuit_2x2_comparison.png,figures/qiskit_gallery_2x2_comparison_schematic.png,copied
+qiskit_noise_model_schematic.png,figures/qiskit_gallery_noise_model_schematic.png,copied
+extended_benchmark_heatmap_auc.png,figures/extended_benchmark_heatmap_auc.png,copied
+adaptive_vs_fixed_coverage.png,figures/adaptive_vs_fixed_coverage.png,copied
+application_scenario.png,generated from project objective,generated
+pareto_tradeoff_scatter.png,results/archive_qaoa.csv + archive_baselines.csv,generated
+recommended_allocations_table.png,results/recommended_allocations.csv,generated
+pareto_qaoa_focused_method_comparison.png,results/method_summary.csv,generated

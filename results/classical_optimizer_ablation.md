@@ -1,0 +1,6 @@
+| case_name             | optimizer      |   final_hv |   auc_hv |   normalized_final_hv |   archive_size |   runtime |   optimizer_iterations |   objective_evaluations |   best_qaoa_loss |
+|:----------------------|:---------------|-----------:|---------:|----------------------:|---------------:|----------:|-----------------------:|------------------------:|-----------------:|
+| main_dense_small_cell | powell         |    1.02662 | 0.873457 |              0.97693  |             21 |  0.419786 |                     12 |                      48 |        0.0100772 |
+| main_dense_small_cell | cobyla         |    1.01078 | 0.848609 |              0.961857 |             19 |  0.154583 |                     32 |                      48 |        0.0627904 |
+| main_dense_small_cell | nelder-mead    |    1.0037  | 0.852984 |              0.955126 |             22 |  0.201794 |                     32 |                      48 |        0.0570315 |
+| main_dense_small_cell | random_restart |    1.02178 | 0.875799 |              0.972328 |             18 |  0.159058 |                     16 |                      48 |        0.0716357 |

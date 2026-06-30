@@ -1,0 +1,5 @@
+status,variant,backend,users,channels,shots,feasibility_rate,valid_sample_efficiency,final_hv,archive_size
+ok,naive_x,ideal,3,2,1024,0.152587890625,0.0078125,1.7656540413597956,4
+ok,naive_x,noisy,3,2,1024,0.15087890625,0.0078125,1.7656540413597956,4
+ok,xy_constraint_preserving,ideal,3,2,1024,1.0,0.0078125,1.7656540413597956,4
+ok,xy_constraint_preserving,noisy,3,2,1024,0.8330078125,0.0078125,1.7656540413597956,4

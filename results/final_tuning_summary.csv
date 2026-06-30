@@ -1,0 +1,18 @@
+case_name,parameter,value,auc_hv,notes
+main_dense_small_cell,qaoa_seed_fraction,0.2,1.0129462333576986,lightweight sensitivity proxy
+main_dense_small_cell,qaoa_seed_fraction,0.3,1.0231265975120472,lightweight sensitivity proxy
+main_dense_small_cell,qaoa_seed_fraction,0.4,1.0129462333576986,lightweight sensitivity proxy
+main_dense_small_cell,cvar_alpha,0.1,1.0078560512805241,main run default retained unless robust improvement
+main_dense_small_cell,cvar_alpha,0.2,1.0180364154348729,main run default retained unless robust improvement
+main_dense_small_cell,cvar_alpha,0.3,1.0078560512805241,main run default retained unless robust improvement
+main_dense_small_cell,warm_start_rho,0.1,1.0078560512805241,static warm-start sensitivity
+main_dense_small_cell,warm_start_rho,0.25,1.0180364154348729,static warm-start sensitivity
+main_dense_small_cell,warm_start_rho,0.5,1.0078560512805241,static warm-start sensitivity
+main_dense_small_cell,candidate_selection,diverse,1.0180364154348729,candidate-selection sensitivity
+main_dense_small_cell,candidate_selection,pareto_diverse,1.0129462333576986,candidate-selection sensitivity
+main_dense_small_cell,mutation_rate,0.1,1.0078560512805241,EA sensitivity placeholder from bounded default sweep
+main_dense_small_cell,mutation_rate,0.2,1.0129462333576986,EA sensitivity placeholder from bounded default sweep
+main_dense_small_cell,mutation_rate,0.3,1.0078560512805241,EA sensitivity placeholder from bounded default sweep
+main_dense_small_cell,population_size,20,1.0078560512805241,EA sensitivity placeholder from bounded default sweep
+main_dense_small_cell,population_size,30,1.0078560512805241,EA sensitivity placeholder from bounded default sweep
+main_dense_small_cell,population_size,50,1.0129462333576986,EA sensitivity placeholder from bounded default sweep

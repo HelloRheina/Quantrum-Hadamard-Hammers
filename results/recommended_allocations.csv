@@ -1,0 +1,6 @@
+case_name,recommendation,solution_type,assignment,throughput,interference,energy,source,is_qaoa_seed,is_qaoa_descendant,explanation
+main_dense_small_cell,high-throughput,high-throughput,2-1-1-0-2-1-0-1,23.150184568542446,2.4894635807248444,9.936298615036378,AI-Pareto-QAOA Ensemble,True,False,Selected as high-throughput from the final Pareto archive.
+main_dense_small_cell,low-interference,low-interference,0-2-0-1-0-1-1-2,19.84507061282532,1.3029764301880027,8.972068950853217,AI-Pareto-QAOA Ensemble,True,False,Selected as low-interference from the final Pareto archive.
+main_dense_small_cell,low-energy,low-energy,1-2-2-2-0-0-1-1,7.139461983568435,4.606709770631827,6.47667060782328,AI-Pareto-QAOA Ensemble,True,False,Selected as low-energy from the final Pareto archive.
+main_dense_small_cell,balanced-knee,balanced-knee,0-2-2-1-0-1-2-1,20.04129041208363,1.7226974252972254,7.5837773482489625,AI-Pareto-QAOA Ensemble,True,False,Selected as balanced-knee from the final Pareto archive.
+main_dense_small_cell,best-hypervolume-contributor,best-hypervolume-contributor,0-2-2-1-0-1-2-1,20.04129041208363,1.7226974252972254,7.5837773482489625,AI-Pareto-QAOA Ensemble,True,False,Representative balanced point near the normalized Pareto knee.

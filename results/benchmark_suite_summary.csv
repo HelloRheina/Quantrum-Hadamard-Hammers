@@ -1,0 +1,3 @@
+case_name,status,best_final_method,best_final_hv,best_auc_method,best_auc_hv
+main_dense_small_cell,pass,AI-Adaptive Pareto-QAOA,1040.1783481006776,Quantum-Seeded Evolutionary MOO,1020.5503787813634
+high_conflict_tradeoff_case,pass,Quantum-Seeded Evolutionary MOO,1858.594075388089,Quantum-Seeded Evolutionary MOO,1822.6636945412847
