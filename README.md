@@ -118,25 +118,6 @@ The project is also runnable with:
 python run_experiment.py
 ```
 
-## Optional Studies
-
-Adaptive QAOA study:
-
-```bash
-python run_adaptive_qaoa_study.py --all-main-cases --seeds 0 1 2 3 4
-```
-
-Classical optimizer and component ablations:
-
-```bash
-python run_ablation_suite.py --case main_dense_small_cell
-```
-
-Extended benchmark:
-
-```bash
-python run_extended_benchmark_suite.py
-```
 
 
 ## 🤝 Team
