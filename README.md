@@ -1,6 +1,6 @@
 # QUANTRUM: Pareto-QAOA for Wireless Channel Allocation
 
-> *A QAOA-based multi-objective optimization framework for communication resource scheduling*
+> *QUANTRUM uses QAOA to generate channel allocations, evaluates them on three competing objectives, keeps the Pareto-optimal trade-offs, and outputs a decision support set, all guided by a self-adaptive controller with CVaR-based sample selection.*
 
 ---
 
